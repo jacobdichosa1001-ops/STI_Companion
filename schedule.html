@@ -63,6 +63,37 @@
       border-left: 5px solid #ffeb00;
       padding-left: 15px;
     }
+
+    .day-box {
+      font-weight: bold;
+      background-color: #0563A3;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 5px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .subject {
+      background: #f7f7f7;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px 0;
+      border-left: 4px solid #0563A3;
+    }
+
+    .subject .time {
+      float: right;
+      font-weight: bold;
+    }
+
+    .subject .room {
+      display: block;
+      margin-top: 5px;
+      font-size: 13px;
+      color: #444;
+    }
   </style>
 </head>
 <body>
@@ -97,368 +128,200 @@
           <a href="#CUL1101" class="jump-btn">CUL 1101</a>
           <a href="#HUMSS1103" class="jump-btn">HUMSS 1103</a>
           <a href="#ICT1102" class="jump-btn">ICT 1102</a>
+          <a href="#TOU1101" class="jump-btn">TOU 1101</a>
         </div>
 
+        <!-- ABM1101 -->
         <div id="ABM1101" class="section-divider"></div>
         <h2 class="schedule-header">ABM 1101</h2>
 
         <table class="sched-table">
           <tr>
-            <th>Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
+            <th>Time</th><th>Monday</th><th>Tuesday</th><th>Thursday</th><th>Friday</th>
           </tr>
-          <tr>
-            <td>7:00 - 8:30 AM</td>
-            <td>Gen. Math (Rm 209)</td>
-            <td>Intro to Philo (Rm 209)</td>
-            <td>Gen. Math (Rm 209)</td>
-            <td>Intro to Philo (Rm 209)</td>
-          </tr>
-          <tr>
-            <td>8:30 - 10:00 AM</td>
-            <td>21st Century Lit (Rm 209)</td>
-            <td>Oral Comm (Rm 209)</td>
-            <td>21st Century Lit (Rm 209)</td>
-            <td>Oral Comm (Rm 209)</td>
-          </tr>
-          <tr>
-            <td>11:30 - 1:00 PM</td>
-            <td>Media & Info Lit (Rm 209)</td>
-            <td>Bus. Math (Rm 209)</td>
-            <td>Media & Info Lit (Rm 209)</td>
-            <td>Bus. Math (Rm 209)</td>
-          </tr>
-          <tr>
-            <td>2:30 - 4:00 PM</td>
-            <td>Org & Mngt (Rm 209)</td>
-            <td></td>
-            <td>Org & Mngt (Rm 209)</td>
-            <td>PE & Health (Court 2)</td>
-          </tr>
+          <tr><td>7:00 - 8:30 AM</td><td>Gen. Math (Rm 209)</td><td>Intro to Philo (Rm 209)</td><td>Gen. Math (Rm 209)</td><td>Intro to Philo (Rm 209)</td></tr>
+          <tr><td>8:30 - 10:00 AM</td><td>21st Century Lit (Rm 209)</td><td>Oral Comm (Rm 209)</td><td>21st Century Lit (Rm 209)</td><td>Oral Comm (Rm 209)</td></tr>
+          <tr><td>11:30 - 1:00 PM</td><td>Media & Info Lit (Rm 209)</td><td>Bus. Math (Rm 209)</td><td>Media & Info Lit (Rm 209)</td><td>Bus. Math (Rm 209)</td></tr>
+          <tr><td>2:30 - 4:00 PM</td><td>Org & Mngt (Rm 209)</td><td></td><td>Org & Mngt (Rm 209)</td><td>PE & Health (Court 2)</td></tr>
         </table>
-        <br>
-        <a href="#" style="color: #0271bc; text-decoration: none;">^ Back to Top</a>
+        <br><a href="#" style="color:#0271bc;text-decoration:none;">^ Back to Top</a>
 
+        <!-- ABM1102 -->
         <div id="ABM1102" class="section-divider"></div>
         <h2 class="schedule-header">ABM 1102</h2>
 
         <table class="sched-table">
-          <tr>
-            <th>Time</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Thursday</th>
-          </tr>
-          <tr>
-            <td>10:00 - 11:30 AM</td>
-            <td>Gen. Math</td>
-            <td>21st Century Lit</td>
-            <td>Gen. Math</td>
-          </tr>
-          <tr>
-            <td>1:00 - 2:30 PM</td>
-            <td>Media & Info Lit</td>
-            <td>Intro to Philo</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>2:30 - 4:00 PM</td>
-            <td></td>
-            <td>Bus. Math</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>4:00 - 5:30 PM</td>
-            <td></td>
-            <td>Org & Mngt</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>5:30 - 7:00 PM</td>
-            <td>Oral Comm</td>
-            <td>PE & Health 1</td>
-            <td></td>
-          </tr>
+          <tr><th>Time</th><th>Monday</th><th>Tuesday</th><th>Thursday</th></tr>
+          <tr><td>10:00 - 11:30 AM</td><td>Gen. Math</td><td>21st Century Lit</td><td>Gen. Math</td></tr>
+          <tr><td>1:00 - 2:30 PM</td><td>Media & Info Lit</td><td>Intro to Philo</td><td></td></tr>
+          <tr><td>2:30 - 4:00 PM</td><td></td><td>Bus. Math</td><td></td></tr>
+          <tr><td>4:00 - 5:30 PM</td><td></td><td>Org & Mngt</td><td></td></tr>
+          <tr><td>5:30 - 7:00 PM</td><td>Oral Comm</td><td>PE & Health 1</td><td></td></tr>
         </table>
-        <br>
-        <a href="#" style="color: #0271bc; text-decoration: none;">^ Back to Top</a>
+        <br><a href="#" style="color:#0271bc;text-decoration:none;">^ Back to Top</a>
 
+        <!-- CUL1101 -->
         <div id="CUL1101" class="section-divider"></div>
         <h2 class="schedule-header">CUL 1101</h2>
 
         <table class="sched-table">
-          <tr>
-            <th>Time</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Friday</th>
-          </tr>
-          <tr>
-            <td>7:00 - 8:30 AM</td>
-            <td>Intro to Philo (211)</td>
-            <td></td>
-            <td>Intro to Philo (211)</td>
-          </tr>
-          <tr>
-            <td>8:30 - 10:00 AM</td>
-            <td>Oral Comm (211)</td>
-            <td></td>
-            <td>Oral Comm (211)</td>
-          </tr>
-          <tr>
-            <td>10:00 - 11:30 AM</td>
-            <td>Basic Food Prod (211)</td>
-            <td>Intro Culinary (301)</td>
-            <td>Basic Food Prod (211)</td>
-          </tr>
-          <tr>
-            <td>1:00 - 2:30 PM</td>
-            <td>21st Century Lit (211)</td>
-            <td></td>
-            <td>21st Century Lit (211)</td>
-          </tr>
-          <tr>
-            <td>2:30 - 4:00 PM</td>
-            <td>Gen. Math (211)</td>
-            <td></td>
-            <td>Gen. Math (211)</td>
-          </tr>
+          <tr><th>Time</th><th>Tuesday</th><th>Wednesday</th><th>Friday</th></tr>
+          <tr><td>7:00 - 8:30 AM</td><td>Intro to Philo (211)</td><td></td><td>Intro to Philo (211)</td></tr>
+          <tr><td>8:30 - 10:00 AM</td><td>Oral Comm (211)</td><td></td><td>Oral Comm (211)</td></tr>
+          <tr><td>10:00 - 11:30 AM</td><td>Basic Food Prod (211)</td><td>Intro Culinary (301)</td><td>Basic Food Prod (211)</td></tr>
+          <tr><td>1:00 - 2:30 PM</td><td>21st Century Lit (211)</td><td></td><td>21st Century Lit (211)</td></tr>
+          <tr><td>2:30 - 4:00 PM</td><td>Gen. Math (211)</td><td></td><td>Gen. Math (211)</td></tr>
         </table>
-        <br>
-        <a href="#" style="color: #0271bc; text-decoration: none;">^ Back to Top</a>
+        <br><a href="#" style="color:#0271bc;text-decoration:none;">^ Back to Top</a>
 
+        <!-- HUMSS1103 -->
         <div id="HUMSS1103" class="section-divider"></div>
         <h2 class="schedule-header">HUMSS 1103</h2>
 
         <table class="sched-table">
-          <tr>
-            <th>Time</th>
-            <th>Mon</th>
-            <th>Tue</th>
-            <th>Wed</th>
-            <th>Thu</th>
-            <th>Fri</th>
-            <th>Sat</th>
-          </tr>
-          <tr>
-            <td>7:00-8:30 AM</td>
-            <td>CORE 1006</td>
-            <td>CORE 1009</td>
-            <td></td>
-            <td>CORE 1006</td>
-            <td>CORE 1009</td>
-            <td>CORE 1009</td>
-          </tr>
-          <tr>
-            <td>9:00-10:00 AM</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>CORE 1013</td>
-          </tr>
-          <tr>
-            <td>10:00-11:30 AM</td>
-            <td></td>
-            <td>CORE 1007</td>
-            <td></td>
-            <td></td>
-            <td>CORE 1007</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>1:00-2:30 PM</td>
-            <td>CORE 1010</td>
-            <td></td>
-            <td></td>
-            <td>CORE 1010</td>
-            <td></td>
-            <td></td>
-          </tr>
+          <tr><th>Time</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+          <tr><td>7:00-8:30 AM</td><td>CORE 1006</td><td>CORE 1009</td><td></td><td>CORE 1006</td><td>CORE 1009</td><td>CORE 1009</td></tr>
+          <tr><td>9:00-10:00 AM</td><td></td><td></td><td></td><td></td><td></td><td>CORE 1013</td></tr>
+          <tr><td>10:00-11:30 AM</td><td></td><td>CORE 1007</td><td></td><td></td><td>CORE 1007</td><td></td></tr>
+          <tr><td>1:00-2:30 PM</td><td>CORE 1010</td><td></td><td></td><td>CORE 1010</td><td></td><td></td></tr>
         </table>
-        <br>
-        <a href="#" style="color: #0271bc; text-decoration: none;">^ Back to Top</a>
+        <br><a href="#" style="color:#0271bc;text-decoration:none;">^ Back to Top</a>
 
+        <!-- ICT1102 -->
         <div id="ICT1102" class="section-divider"></div>
         <h2 class="schedule-header">ICT 1102</h2>
 
         <table class="sched-table">
-          <tr>
-            <th>Time</th>
-            <th>Mon</th>
-            <th>Wed</th>
-            <th>Thurs</th>
-            <th>Sat</th>
-          </tr>
-          <tr>
-            <td>7:00-8:30AM</td>
-            <td></td>
-            <td>SPECIAL 1093</td>
-            <td></td>
-            <td>SPECIAL 1093</td>
-          </tr>
-          <tr>
-            <td>11:30-1:00PM</td>
-            <td>CORE 1007</td>
-            <td>CORE 1010</td>
-            <td>CORE 1007</td>
-            <td>CORE 1010</td>
-          </tr>
-          <tr>
-            <td>2:30-4:00PM</td>
-            <td>CORE 1009</td>
-            <td></td>
-            <td>CORE 1009</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>4:00-5:30PM</td>
-            <td>CORE 1006</td>
-            <td></td>
-            <td>CORE 1006</td>
-            <td></td>
-          </tr>
+          <tr><th>Time</th><th>Mon</th><th>Wed</th><th>Thurs</th><th>Sat</th></tr>
+          <tr><td>7:00-8:30AM</td><td></td><td>SPECIAL 1093</td><td></td><td>SPECIAL 1093</td></tr>
+          <tr><td>11:30-1:00PM</td><td>CORE 1007</td><td>CORE 1010</td><td>CORE 1007</td><td>CORE 1010</td></tr>
+          <tr><td>2:30-4:00PM</td><td>CORE 1009</td><td></td><td>CORE 1009</td><td></td></tr>
+          <tr><td>4:00-5:30PM</td><td>CORE 1006</td><td></td><td>CORE 1006</td><td></td></tr>
         </table>
-        <br>
-        <a href="#" style="color: #0271bc; text-decoration: none;">^ Back to Top</a>
+        <br><a href="#" style="color:#0271bc;text-decoration:none;">^ Back to Top</a>
 
-      </div>
-
-    </td>
-  </tr>
-</table>
+        <!-- TOURISM TOU1101 -->
         <div id="TOU1101" class="section-divider"></div>
         <h2 class="schedule-header">TOU 1101</h2>
 
-        <table class="sched-table">
-          <tr>
-            <th>Day</th>
-            <th>Subject</th>
-            <th>Time</th>
-            <th>Room</th>
-          </tr>
+        <h1 style="text-align:center; color:#0563A3;">TOU1101 CLASS SCHEDULE</h1>
 
-          <tr>
-            <td>Monday</td>
-            <td>Introduction to the Philosophy of the Human Person</td>
-            <td>7:00 AM – 8:30 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Monday</td>
-            <td>Introduction to Travel & Tourism Industry</td>
-            <td>8:30 AM – 10:00 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Monday</td>
-            <td>Front Office Services 1</td>
-            <td>10:00 AM – 11:30 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Monday</td>
-            <td>Oral Communication</td>
-            <td>1:00 PM – 2:30 PM</td>
-            <td></td>
-          </tr>
+        <div class="day-box">MONDAY</div>
+        <div class="subject">
+          Introduction to the Philosophy of the Human Person
+          <span class="time">7:00 AM – 8:30 AM</span>
+          <span class="room">Room:</span>
+        </div>
 
-          <tr>
-            <td>Tuesday</td>
-            <td>Media and Information Literacy</td>
-            <td>7:00 AM – 8:30 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>21st Century Literature</td>
-            <td>8:30 AM – 10:00 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>General Mathematics</td>
-            <td>11:30 AM – 1:00 PM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>Physical Education & Health 1</td>
-            <td>1:00 PM – 3:00 PM</td>
-            <td></td>
-          </tr>
+        <div class="subject">
+          Introduction to Travel & Tourism Industry
+          <span class="time">8:30 - 10:00 AM</span>
+          <span class="room">Room:</span>
+        </div>
 
-          <tr>
-            <td>Wednesday</td>
-            <td>Student Organization & Clubs - G11 - 1st</td>
-            <td>4:00 PM – 6:00 PM</td>
-            <td>TBA</td>
-          </tr>
+        <div class="subject">
+          Front Office Services 1
+          <span class="time">10:00 - 11:30 AM</span>
+          <span class="room">Room:</span>
+        </div>
 
-          <tr>
-            <td>Thursday</td>
-            <td>Introduction to Philosophy of the Human Person</td>
-            <td>7:00 AM – 8:30 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>Introduction to Travel & Tourism Industry</td>
-            <td>8:30 AM – 10:00 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>Front Office Services 1</td>
-            <td>10:00 AM – 11:30 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>Oral Communication</td>
-            <td>1:00 PM – 2:30 PM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>Homeroom</td>
-            <td>4:00 PM – 5:00 PM</td>
-            <td></td>
-          </tr>
+        <div class="subject">
+          Oral Communication
+          <span class="time">1:00 - 2:30 PM</span>
+          <span class="room">Room:</span>
+        </div>
 
-          <tr>
-            <td>Friday</td>
-            <td>Media and Information Literacy</td>
-            <td>7:00 AM – 8:30 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>21st Century Literature</td>
-            <td>8:30 AM – 10:00 AM</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>General Mathematics</td>
-            <td>11:30 AM – 1:00 PM</td>
-            <td></td>
-          </tr>
-        </table>
+        <div class="day-box">TUESDAY</div>
+        <div class="subject">
+          Media and Information Literacy
+          <span class="time">7:00 AM – 8:30 AM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="subject">
+          21st Century Literature
+          <span class="time">8:30 - 10:00 AM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="subject">
+          General Mathematics
+          <span class="time">11:30 - 1:00 PM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="subject">
+          Physical Education and Health 1
+          <span class="time">1:00 - 3:00 PM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="day-box">WEDNESDAY</div>
+        <div class="subject">
+          Student Organization & Clubs - G11 - 1st
+          <span class="time">4:00 - 6:00 PM</span>
+          <span class="room">Room: TBA</span>
+        </div>
+
+        <div class="day-box">THURSDAY</div>
+        <div class="subject">
+          Introduction to the Philosophy of the Human Person
+          <span class="time">7:00 AM – 8:30 AM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="subject">
+          Introduction to Travel & Tourism Industry
+          <span class="time">8:30 - 10:00 AM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="subject">
+          Front Office Services 1
+          <span class="time">10:00 - 11:30 AM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="subject">
+          Oral Communication
+          <span class="time">1:00 - 2:30 PM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="subject">
+          Homeroom
+          <span class="time">4:00 - 5:00 PM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="day-box">FRIDAY</div>
+        <div class="subject">
+          Media and Information Literacy
+          <span class="time">7:00 AM – 8:30 AM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="subject">
+          21st Century Literature
+          <span class="time">8:30 - 10:00 AM</span>
+          <span class="room">Room:</span>
+        </div>
+
+        <div class="subject">
+          General Mathematics
+          <span class="time">11:30 - 1:00 PM</span>
+          <span class="room">Room:</span>
+        </div>
 
         <br>
-        <a href="#" style="color: #0271bc; text-decoration: none;">^ Back to Top</a>
+        <a href="#" style="color:#0271bc;text-decoration:none;">^ Back to Top</a>
 
       </div>
 
     </td>
   </tr>
 </table>
-  
+
 <img class="footer-logo" src="images/logo/4.png" alt="STI Logo">
 
 </body>
